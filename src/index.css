@@ -1,0 +1,34 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+
+}
+
+.carousel{
+  overflow:hidden;
+  padding-top: 100px;
+}
+.inner {
+  white-space: nowrap;
+  transition: transform 0.3s;
+}
+.carousel-item {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 200px;
+  top: 300px;
+  color: #fff;
+}
+.indicators {
+  display: flex;
+  justify-content: center;
+}
+.indicators > button {
+  margin: 5px;
+}
+.indicators > .active {
+  background-image: url('/public/trollface3.png');
+}
